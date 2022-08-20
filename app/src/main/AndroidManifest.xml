@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.travelapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Travelapp"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Download"></activity>
+        <activity android:name=".other_post_comment" />
+        <activity android:name=".bankdetails" />
+        <activity android:name=".customview2" />
+        <activity android:name=".chat_user" />
+        <activity android:name=".allblog" />
+        <activity android:name=".allpost" />
+        <activity android:name=".customview" />
+        <activity android:name=".mypost" />
+        <activity android:name=".custom2" />
+        <activity android:name=".viewBlogs" />
+        <activity android:name=".viewposts" />
+        <activity android:name=".Custom3" />
+        <activity android:name=".ipset">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".userhome" />
+        <activity android:name=".chat_hotel" />
+        <activity android:name=".chat_travelagency" />
+        <activity android:name=".Add_Comment" />
+        <activity android:name=".View_Comment" />
+        <activity android:name=".Post2" />
+        <activity android:name=".Post_Photo" />
+        <activity android:name=".Chat" />
+        <activity android:name=".view_room_status" />
+        <activity android:name=".book_room" />
+        <activity android:name=".view_room_details" />
+        <activity android:name=".view_package_status" />
+        <activity android:name=".addblog" />
+        <activity android:name=".manage_blog" />
+        <activity android:name=".packages2" />
+        <activity android:name=".packages1" />
+        <activity android:name=".viewfeedback" />
+        <activity android:name=".feedback" />
+        <activity android:name=".viewplaces" />
+        <activity android:name=".placerating" />
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

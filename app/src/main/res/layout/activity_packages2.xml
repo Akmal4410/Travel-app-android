@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:paddingHorizontal="40dp"
+    android:background="@drawable/login"
+        android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:gravity="center"
+            android:textColor="#B67618"
+            android:text="PACKAGES NAME"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/packagedetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Package details"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="17dp"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/foodavailablity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food availability"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="17dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/food"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/rrrrr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:textSize="20dp" />
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="17dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:paddingBottom="17dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="date" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="142dp"
+            android:layout_height="wrap_content"
+            android:text="BOOK"
+            android:textSize="25dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textSize="25dp" />
+    </TableRow>
+
+</LinearLayout>

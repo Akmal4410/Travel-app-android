@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="15dp"
+    android:background="@drawable/login"
+        android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:paddingHorizontal="13dp">
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textColor="#B67618"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="184dp"
+            android:layout_height="wrap_content"
+            android:text="Packages"
+            android:textColor="#B67618"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textColor="#B67618"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/viewpackegestatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableRow>
+</LinearLayout>
